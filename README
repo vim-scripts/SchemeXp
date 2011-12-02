@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3832
+
+Here are some R5RS Scheme snippets for xptemplate.
+
+NOTE:  These snippets require the newest version of xptemplate from SVN or git.
+
+Known issues:
+
+  Due to the limitations of the current version of xptemplate, the "let*" snippet is named "letstar".
+
