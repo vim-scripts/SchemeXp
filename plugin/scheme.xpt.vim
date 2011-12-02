@@ -409,6 +409,14 @@ XPT eof-object? " (eof-object? obj)
 (eof-object? `obj^)
 
 
+XPT eq? " (eq obj1 obj2)
+(eq? `obj1^ `obj2^)
+
+
+XPT equal? " (equal obj1 obj2)
+(equal? `obj1^ `obj2^)
+
+
 XPT eqv? " (eqv? obj1 obj2)
 (eqv? `obj1^ `obj2^)
 
@@ -679,6 +687,10 @@ XPT peek-char " (peek-char port)
 
 XPT procedure? " (procedure? obj)
 (procedure? `obj^)
+
+
+XPT quote " (quote datum)
+(quote `datum^)
 
 
 XPT rational? " (rational? obj)
